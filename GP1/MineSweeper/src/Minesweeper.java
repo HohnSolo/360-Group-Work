@@ -1,8 +1,3 @@
-/*
-Author: David Hohn
-Class: TCSS 360
- */
-
 import java.util.Scanner;
 
 public class Minesweeper {
@@ -24,7 +19,7 @@ public class Minesweeper {
                 if ((n >= 0 && n <= 100) && (m >= 0 && m <= 100)) {
                     break; // n and m are valid, break out of the loop
                 } else {
-                    System.out.println("Both 'N' and 'M' must be between 0 and 100, inclusive. Please try again:");
+                    System.out.println("Both 'N' and 'M' must be between 0 and 100. Please try again:");
                 }
             }
 
@@ -75,6 +70,5 @@ public class Minesweeper {
         return count;
     }
 }
-
 
 
