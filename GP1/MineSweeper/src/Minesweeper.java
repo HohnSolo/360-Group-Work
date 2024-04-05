@@ -1,5 +1,16 @@
+/*
+Author: David Hohn
+Class: TCSS 360
+
+If this program is run without file redirection then it will accept user input. This was done for testing purposes.
+The output.txt file was created to compare my output with the official output.
+ */
+
 import java.util.Scanner;
 
+/*
+This class implements a basic version of the minesweeper game. creates the fields and has a helper method to count the mines.
+ */
 public class Minesweeper {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // create the scanner to receive user input
